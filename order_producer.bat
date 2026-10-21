@@ -4,7 +4,7 @@ setlocal EnableExtensions EnableDelayedExpansion
 
 REM ======= Configuration =======
 set "BOOTSTRAP=localhost:9092"
-set "TOPIC=orders"
+set "TOPIC=mon_topic_replique"
 
 REM Adapter selon ton installation Kafka
 set "KAFKA_HOME=C:\kafka"
